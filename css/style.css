@@ -1,0 +1,10 @@
+.grid{
+    border: 1px solid green;
+    display: grid;
+    gap: 8px;
+    
+}
+
+.item{
+    background-color: aqua;
+}
