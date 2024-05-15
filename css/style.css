@@ -1,11 +1,15 @@
 .grid{
     border: 1px solid green;
     display: grid;
+    height: 100vh;
     gap: 8px;
-    grid-template-columns: repeat(auto-fit, minmax(100px, auto))
-    
+    grid-template-columns: repeat(5, 150px);
+    align-items: center;
+    justify-items: center; 
 }
 
 .item{
     background-color: aqua;
+    width: 100px;
+    height: 100px;
 }
