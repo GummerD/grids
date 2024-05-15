@@ -3,9 +3,9 @@
     display: grid;
     gap: 8px;
     /* явное определение размеров элемнтов как колонки*/
-    grid-template-columns: 100px 200px 300px;
+    grid-template-columns: repeat(5, 100px);
     /* явное определение размеров элемнтов как строки*/
-    grid-template-rows: 100px 200px 300px;
+    grid-template-rows: repeat(5, 100px);
 }
 
 .item{
