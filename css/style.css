@@ -18,6 +18,7 @@
 }
 
 .item:first-child{
+    background-color: black;
     align-self: center;
     justify-self: end;
 }
