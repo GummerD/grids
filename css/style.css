@@ -2,10 +2,10 @@
     border: 1px solid green;
     display: grid;
     gap: 8px;
-    grid-auto-rows: 100px 200px 300px;
-    grid-auto-columns: 100px 200px 300px;
-    grid-auto-flow: column;
-    
+    /* явное определение размеров элемнтов как колонки*/
+    grid-template-columns: 100px 200px 300px;
+    /* явное определение размеров элемнтов как строки*/
+    grid-template-rows: 100px 200px 300px;
 }
 
 .item{
